@@ -8,6 +8,10 @@ Changelog
 4.3.4 (unreleased)
 ------------------
 
+- Fix incorrect use of dict get method in CatalogTool.search, introduced
+  by PloneHotfix20131210 (issue 195)
+  [fulv]
+
 - Fix for https://dev.plone.org/ticket/13603 would break with VHM.
   [spereverde, jakke, jfroche]
 
